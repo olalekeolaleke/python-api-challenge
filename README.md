@@ -56,22 +56,35 @@ In this section, you'll create a Python script to visualize the weather of 500+ 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
 * Temperature (F) vs. Latitude
+![lat_vs_temp](https://user-images.githubusercontent.com/105587442/200119792-fef77640-fce9-41ee-8497-816c4f8dbf7a.png)
 * Humidity (%) vs. Latitude
+![lat_vs_hum](https://user-images.githubusercontent.com/105587442/200119791-e09aece4-d4b6-4be4-a8e4-da5d24da1a96.png)
 * Cloudiness (%) vs. Latitude
+![lat_vs_cloud](https://user-images.githubusercontent.com/105587442/200119790-d41d540c-6da8-44c6-940c-06609bd1a4b1.png)
 * Wind Speed (mph) vs. Latitude
+![lat_vs_wind](https://user-images.githubusercontent.com/105587442/200119793-5912d148-b8b4-4198-bc89-e20e37d38715.png)
 
 After each plot, add a sentence or two explaining what the code is analyzing.
 
 The second requirement is to compute the linear regression for each relationship. This time, separate the plots into Northern Hemisphere (greater than or equal to 0 degrees latitude) and Southern Hemisphere (less than 0 degrees latitude):
 
 * Northern Hemisphere - Temperature (F) vs. Latitude
+![nrth_hemisphere- lat_vs_max_tem](https://user-images.githubusercontent.com/105587442/200119796-fffe3902-fb29-454b-a2e1-499a7707c7b3.png)
 * Southern Hemisphere - Temperature (F) vs. Latitude
+![sthn_hemisphere- lat_vs_max_tem](https://user-images.githubusercontent.com/105587442/200119802-bb7263e7-6e23-4e1b-912d-e0c5eb6740b4.png)
 * Northern Hemisphere - Humidity (%) vs. Latitude
+![nrth_hemisphere- hum_vs_lat](https://user-images.githubusercontent.com/105587442/200119795-4fcc66e4-cd56-454e-9a03-0e559bb52d82.png)
 * Southern Hemisphere - Humidity (%) vs. Latitude
+![sthn_hemisphere- lat_vs_hum](https://user-images.githubusercontent.com/105587442/200119799-0b6c2fd4-a7af-45d3-b0e0-8f82e579724c.png)
 * Northern Hemisphere - Cloudiness (%) vs. Latitude
+![nrth_hemisphere- cldness_vs_lat](https://user-images.githubusercontent.com/105587442/200119794-6ce4007f-21db-45c2-b02d-21a6aac3adda.png)
 * Southern Hemisphere - Cloudiness (%) vs. Latitude
+![sthn_hemisphere- lat_vs_cldness](https://user-images.githubusercontent.com/105587442/200119798-2a08a573-5aec-4e40-b539-26e9289f2441.png)
 * Northern Hemisphere - Wind Speed (mph) vs. Latitude
+![nrth_hemisphere- windsp_vs_lat](https://user-images.githubusercontent.com/105587442/200119797-cc2d5f47-3a8c-40b0-8b05-e06fb21b2c2a.png)
 * Southern Hemisphere - Wind Speed (mph) vs. Latitude
+![sthn_hemisphere- lat_vs_windsp](https://user-images.githubusercontent.com/105587442/200119804-980a0fa7-cb53-4570-be38-97a051184792.png)
+
 
 After each pair of plots, explain what the linear regression is modeling. For example, describe any relationships that you notice and any other findings you may have.
 
@@ -110,9 +123,13 @@ To complete this part of the assignment, you will need to do the following:
 
 * Use Google Places API to find the first hotel for each city located within 5,000 meters of your coordinates.
 
+![city_heatmap](https://user-images.githubusercontent.com/105587442/200119786-7102653f-8db4-49b4-8854-d57e4f8c2eac.png)
+
 * Plot the hotels on top of the humidity heatmap, with each pin containing the **Hotel Name**, **City**, and **Country**, as in the following image:
 
   ![hotel map](Images/hotel_map.png)
+  
+  ![hotel_map](https://user-images.githubusercontent.com/105587442/200119789-c2a71d81-9f21-4768-982b-a5d8c04ce64f.png)
 
 As final considerations:
 
@@ -147,10 +164,22 @@ As final considerations:
 
 * Lastly, remember that this is a challenging activity. Push yourself! If you complete this task, you can safely say that you've gained a strong understanding of the core foundations of data analytics, and it will only get better from here. Good luck!
 
-## Rubric
-
-[Unit 6 Homework Rubric](https://docs.google.com/document/d/1Y17QYjs0KMeEPPGd_1BpMjnqXiTaJVeFwqea5ReMdeU/edit?usp=sharing)
-
-- - -
 
 © 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
